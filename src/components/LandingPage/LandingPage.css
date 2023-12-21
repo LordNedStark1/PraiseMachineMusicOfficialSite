@@ -1,0 +1,461 @@
+/* nav bar */
+.nav-bar{
+    height: 55px;
+    display: flex;
+}
+.nav-bar ul li{
+    list-style: none;
+    font-size: 15px;
+    text-decoration: underline; 
+    
+    &:hover {
+        color: rgb(207, 191, 44); 
+        text-shadow: 3px 3px 36px rgba(231, 230, 148, 0.5);
+      }
+}
+.nav-bar ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+   margin-left: 30%;
+}
+/* MyComponent.css */
+
+.custom-link {
+    color: #fff; /* Default font color */
+    text-decoration: none; 
+  
+    /* Hover effect */
+    &:hover {
+      color: #b9a619; 
+      text-shadow: 3px 3px 36px rgba(231, 230, 148, 0.5);
+    }
+  
+    /* Click effect */
+    &:active {
+      color: #e08823; 
+    }
+  } 
+
+/* header */
+.header{
+    width: 100%;
+    height: 550px;
+
+    display: flex;
+    background-color: #2F303A;
+    margin-bottom: 60px;
+
+}
+.middle-bubble{
+    height: 230px;
+    width: 13px;
+    border-radius: 100px;
+    background-color: #AA9D2D;
+    margin-right: 25px;
+    margin-top: 70px;
+}
+.header-image{
+    margin-top: 130.5px;
+    width: 500px;
+    background-image: url('../../assets/images/african-woman-singing-while-listening-music-headphones-isolated-grey-background-copy-space_613652-440-veed-remove-background.png');
+    background-repeat: no-repeat;
+}
+
+
+.play-now-button{
+    background-color: #1762A7;
+    border: none;
+    border-radius: 10px;
+    height: 49px;
+    width: 110px;
+    color: rgb(235, 239, 248);
+    font-size: 20px;
+}
+.header-text-div h1{
+    font-size: 70px;
+}
+.header-text-div p{
+    font-size: 18px;
+}
+/* other-praise-machine-songs*/
+
+.other-songs{
+    width: 100%;
+    height: 650px;
+
+    background-color: #2F303A;
+}
+.other-songs-h2-div{
+    display: grid;
+    justify-content: center;
+    font-size: 27px;
+    margin: 15px;
+  
+}
+.worship-song-card{
+    height: 500px;
+    width: 320px;
+    border-radius: 20px;
+    background-color: #333658;
+    margin-left: 65px ;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.worship-song-card p, h3 {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+        color: #ebe091; 
+      }
+}
+
+.worship-card-image{
+    height: 245px;
+    width: 278px;
+    margin-top: 15px;
+    border-radius: 20px;
+    transition: height 0.7s ease, width 0.7s ease;
+    &:hover {
+        height: 249px;
+        width: 270px;
+      }
+}
+
+.worship-song-card-container{
+    display: flex;
+}
+.song_card_a_tag{
+    text-decoration: none;
+}
+
+/* new-release */
+.new-release{
+    background-color: #2F303A;
+    padding: 35px 0 45px 35px;
+    margin-bottom: 35px;
+    display: flex;
+   
+}
+.new-release img{
+    border-radius: 20px;
+    margin: 0 45px ;
+}
+.about-new-release{
+    padding-left: 35px;
+    width: 500px;
+}
+.about-new-release h2{
+    font-size: 45px;
+}
+.about-new-release h4{
+    font-size: 25px;
+}
+.about-new-release p{
+    font-size: 18px;
+}
+
+/* contact info */
+.form-div form input{
+    width: 465px;
+    height: 45px;
+    border-radius: 60px;
+    font-size: 17   px;
+    color: rgb(88, 83, 83);
+    font-weight: 600px;
+    border: none;
+    margin-top: 20px;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.form-div{
+    display: grid;
+    justify-content: center;
+    margin-top: 6px;
+    width: 580px;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.message-text-area{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.other-contact-links{
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 35px;
+    height: 385px;
+    width: 395px;
+    max-width: 455px;
+    min-width: 232px;
+    background-color: rgb(92, 93, 129);
+}
+.other-contact-links ul li{
+    list-style: none;
+    margin-bottom: 20px;
+    width: 190px;
+}
+.other-contact-links P{
+   margin-left: 12px;
+}
+.icon-image{
+    height: 28px;
+    width: 35px;
+}
+.icon-image-button{
+    display: flex;  
+    height: 35px;
+}
+.icon-ptag{
+    margin-bottom: 35px;
+    
+}
+.orange-circle{
+    border-radius: 100%;
+    border: none;
+    background-color: rgba(212, 133, 104, 0.2);
+    height: 145px;
+    width: 145px;
+}
+.submit-button{
+    background-color: #1762A7;
+    border: none;
+    border-radius: 10px;
+    height: 49px;
+    width: 462px;
+    color: rgb(235, 239, 248);
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+    .worship-song-card-container{
+        display: grid;
+        justify-content: center;
+    }
+    .worship-card-image {
+    
+        height: 200px;
+        width: 100px;
+        margin-top: 10px;
+      
+      transition: none;
+      &:hover {
+        height: 210px;
+        width: 160px;
+        border-radius: 20px;
+      }
+    }
+   
+  
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+    /* Adjust styles for screens between 601px and 1200px */
+ 
+    .mobile-navbar-h3{
+        font-size: 6px;
+        border: 2px solid red;
+    }
+    .header-text-div {
+        width: 100%;
+      
+        /* background-image: url('../../assets/images/african-woman-singing-while-listening-music-headphones-isolated-grey-background-copy-space_613652-440-veed-remove-background.png'); */
+        background-repeat: no-repeat;
+      }
+      .header{
+        width: 100%;
+        height: 450px;
+    
+        display: flex;
+        background-color: #2F303A;
+        margin-bottom: 60px;
+
+        background-image: url('../../assets/images/african-woman-singing-while-listening-music-headphones-isolated-grey-background-copy-space_613652-440-veed-remove-background.png');
+        background-repeat: no-repeat;
+    }
+    .header h1{
+        font-size: 50px;
+    }
+    
+    .other-songs{
+        width: 100%;
+        height: 1800px;
+    
+    }
+    .worship-song-card-container{
+        display: grid;
+        justify-content: center;
+    }
+    .other-songs-h2-div{
+        display: grid;
+        justify-content: center;
+        font-size: 27px;
+        margin: 15px;
+      
+    }
+    .worship-song-card{
+        height: 500px;
+        width: 420px;
+        border-radius: 20px;
+        background-color: #333658;
+        margin-bottom: 25px;
+        font-size: 18px;
+    }
+    
+    .worship-song-card p, h3 {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: #ebe091; 
+          }
+    }
+    .worship-card-image{
+        height: 268px;
+        width: 368px;
+        margin-top: 15px;
+        border-radius: 50%;
+        transition: height 0.3s ease, width 0.3s ease;
+        &:hover {
+            height: 249px;
+            width: 270px;
+          }
+    }
+
+}
+
+/* mobile responsiveness */
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav-bar {
+      justify-content: center;
+    }
+
+    .nav-bar ul {
+      margin-left: 0;
+    }
+  
+    .custom-link {
+      font-size: 14px;
+    }
+  
+    .header {
+      height: 400px;
+      /* background-image: url('../../assets/images/african-woman-singing-while-listening-music-headphones-isolated-grey-background-copy-space_613652-440-veed-remove-background.png'); */
+      background-repeat: no-repeat;
+    }
+    .header h1{
+        font-size: 29px;
+    }
+    
+
+    .new-release {
+      display: grid;   
+    }
+  
+    .new-release img {
+        width: 320px;
+      margin: -24px;
+      margin-bottom: 10px;
+    }
+  
+    .about-new-release {
+      width: 100%;
+      padding-left: 0;
+    }
+  
+    .worship-song-card {
+      width: 72%;
+      margin-bottom: 31px;
+      
+    }
+    .other-songs{
+        width: 100%;
+        height: 1790px;
+    
+    }
+    .worship-song-card-container{
+        display: grid;
+        justify-content: center;
+        margin-right: 25px;
+    }
+ 
+    .worship-card-image {
+    
+        height: 230px;
+        width: 220px;
+        margin-top: 10px;
+      
+      transition: none;
+      &:hover {
+        height: 235px;
+        width: 195px;
+        border-radius: 20px;
+      }
+    }
+  
+    .contact-info {
+    display: grid;
+    justify-content: center;
+    margin-top: 100px;
+    }
+    .contact-info p{
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .contact-info-main-container{
+        
+        padding-left: 8px;
+    }
+  
+    .form-div form input {
+      width: 100%;
+      border-radius: 6px;
+    }
+    .form-div form textarea {
+        width: 100%;
+        border-radius: 6px;
+      }
+    .other-contact-links {
+      margin: 0;
+      margin-top: 20px;
+      width: 100%;
+    }
+  
+    .other-contact-links ul li {
+      width: 100%;
+    }
+  
+    .icon-image-button {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .icon-image {
+      margin-bottom: 10px;
+    }
+  
+    .form-div {
+      width: 80%;
+    }
+  
+    .message-text-area {
+      width: 80%;
+    }
+  
+    .submit-button {
+      width: 80%;
+    }
+  
+  }
+  
+  
+  /* Rest of your existing styles... */
+  
